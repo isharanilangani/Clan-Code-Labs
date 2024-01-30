@@ -1,0 +1,187 @@
+/* globals.css */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.navc {
+  background: #1f2933;
+}
+
+.navbarContainer {
+  height: 60px;
+  padding: 0 30px;
+  display: flex;
+  align-items: center;
+}
+
+.navbarText {
+  color: #fff;
+  font-weight: bold;
+  flex: 1;
+}
+
+.container {
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+
+.table-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-bottom: 1px solid #ccc;
+  padding: 4px;
+}
+
+.table-container .tabl {
+  min-width: 100%;
+}
+
+.table-container .tablehead {
+  background: #f9fafb;
+}
+
+.table-container .tablehead .colum,
+.table-container .tablehead .colum-l {
+  font-weight: 600;
+  padding: 0.75rem 1.5rem;
+}
+
+.table-container .tablehead .colum {
+  text-align: left;
+  color: #374151;
+}
+
+.table-container .tablehead .colum-l {
+  text-align: right;
+  color: #374151;
+}
+
+.table-container .tablebody {
+  background: white;
+}
+
+.table-container .tablebody .tbetail,
+.table-container .tablebody .tbetail-l {
+  padding: 1rem 1.5rem;
+  white-space: nowrap;
+}
+
+.table-container .tablebody .tbetail-l {
+  text-align: right;
+}
+
+.table-container .tablebody .button {
+  padding: 8px;
+  color: #4f46e5;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.table-container .tablebody .button:hover {
+  color: #0a0546;
+  cursor: pointer;
+}
+
+.addtask {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.addtask .taskde {
+  height: 48px;
+}
+
+.addtask .taskde .butt {
+  margin-left: 10px;
+  background-color: #374151;
+  color: #fff;
+  padding: 8px 24px;
+  font-weight: 600;
+}
+
+.dialog {
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.dialogcontent {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.new {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
+.interdialog {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dialog2 {
+  width: 300px;
+}
+
+.dialogtopic {
+  margin-bottom: 10px;
+}
+
+.dialogcontent3 {
+  font-size: 14px;
+}
+
+.inputdialog {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+
+.butcon {
+  display: flex;
+}
+
+.save, .close {
+  background-color: #088b64;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  font-size: 15px;
+  cursor: pointer;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  transition: background-color 0.3s ease;
+  font-weight: bold;
+}
+
+.close {
+  background-color: #6d0101;
+  margin-left: 5px; /* Adjusted margin to reduce space between buttons */
+}
+
+/* Hover styles */
+.save:hover {
+  background-color: #0c310e;
+}
+.close:hover{
+  background-color: #421310;
+}
+
